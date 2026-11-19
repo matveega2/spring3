@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class Rabbit4 {
 
     @Autowired
-    private Duck5 duck = new Duck5();
+    private Duck5 duck;
 
     @Override
     public String toString() {
